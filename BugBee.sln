@@ -1,0 +1,61 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugBee.AppHost", "src\BugBee.AppHost\BugBee.AppHost.csproj", "{5E9BB8BA-A26B-4954-A0A1-F6128FD73ACA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugBee.ServiceDefaults", "src\BugBee.ServiceDefaults\BugBee.ServiceDefaults.csproj", "{462CC9A5-3867-44F7-B61B-3EE2AF915EC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugBee.ApiService", "src\BugBee.ApiService\BugBee.ApiService.csproj", "{6D251F25-88FE-4B6B-BFA1-CEA855679F38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugBee.Web", "src\BugBee.Web\BugBee.Web.csproj", "{60805912-86FD-4B64-B41C-F24DD8AC4518}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{E2AC508B-F53B-497B-BAEF-1114C24DF8B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D24AD6F7-754A-4E5E-AEDF-8DF73A2E413F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{957CF6C5-B825-453A-B4E9-06F3118B53BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugBee.UnitTest", "test\BugBee.UnitTest\BugBee.UnitTest.csproj", "{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E9BB8BA-A26B-4954-A0A1-F6128FD73ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9BB8BA-A26B-4954-A0A1-F6128FD73ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9BB8BA-A26B-4954-A0A1-F6128FD73ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9BB8BA-A26B-4954-A0A1-F6128FD73ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462CC9A5-3867-44F7-B61B-3EE2AF915EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462CC9A5-3867-44F7-B61B-3EE2AF915EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462CC9A5-3867-44F7-B61B-3EE2AF915EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462CC9A5-3867-44F7-B61B-3EE2AF915EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D251F25-88FE-4B6B-BFA1-CEA855679F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D251F25-88FE-4B6B-BFA1-CEA855679F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D251F25-88FE-4B6B-BFA1-CEA855679F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D251F25-88FE-4B6B-BFA1-CEA855679F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60805912-86FD-4B64-B41C-F24DD8AC4518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60805912-86FD-4B64-B41C-F24DD8AC4518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60805912-86FD-4B64-B41C-F24DD8AC4518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60805912-86FD-4B64-B41C-F24DD8AC4518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{462CC9A5-3867-44F7-B61B-3EE2AF915EC6} = {957CF6C5-B825-453A-B4E9-06F3118B53BA}
+		{60805912-86FD-4B64-B41C-F24DD8AC4518} = {957CF6C5-B825-453A-B4E9-06F3118B53BA}
+		{5E9BB8BA-A26B-4954-A0A1-F6128FD73ACA} = {957CF6C5-B825-453A-B4E9-06F3118B53BA}
+		{6D251F25-88FE-4B6B-BFA1-CEA855679F38} = {957CF6C5-B825-453A-B4E9-06F3118B53BA}
+		{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD} = {D24AD6F7-754A-4E5E-AEDF-8DF73A2E413F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D6AAEA6-37DD-4AD0-A3DB-424A0E94C88C}
+	EndGlobalSection
+EndGlobal
