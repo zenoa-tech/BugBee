@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{957CF6C5-B82
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugBee.UnitTest", "test\BugBee.UnitTest\BugBee.UnitTest.csproj", "{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugBee.Toolkit", "src\BugBee.Toolkit\BugBee.Toolkit.csproj", "{C07E652F-2A84-4318-BC2C-8DC53029884F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07E652F-2A84-4318-BC2C-8DC53029884F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07E652F-2A84-4318-BC2C-8DC53029884F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07E652F-2A84-4318-BC2C-8DC53029884F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07E652F-2A84-4318-BC2C-8DC53029884F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{5E9BB8BA-A26B-4954-A0A1-F6128FD73ACA} = {957CF6C5-B825-453A-B4E9-06F3118B53BA}
 		{6D251F25-88FE-4B6B-BFA1-CEA855679F38} = {957CF6C5-B825-453A-B4E9-06F3118B53BA}
 		{9C1FF773-5E6D-4C2D-8816-51B0078CA8CD} = {D24AD6F7-754A-4E5E-AEDF-8DF73A2E413F}
+		{C07E652F-2A84-4318-BC2C-8DC53029884F} = {957CF6C5-B825-453A-B4E9-06F3118B53BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D6AAEA6-37DD-4AD0-A3DB-424A0E94C88C}
